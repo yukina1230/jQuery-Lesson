@@ -1,5 +1,6 @@
 $(function(){
-  $('button').on('click', function(){
-    $('ul').children().css('color','red');
+  $('.box1').css({
+    'background-color': '#0000ff',
+    'height': '100px'
   });
 });
